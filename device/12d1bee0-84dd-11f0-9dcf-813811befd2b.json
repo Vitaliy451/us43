@@ -1,0 +1,92 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "12d197d0-84dd-11f0-9dcf-813811befd2b"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "12d1bee0-84dd-11f0-9dcf-813811befd2b"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "12d1bee0-84dd-11f0-9dcf-813811befd2b"
+    },
+    "label" : null,
+    "name" : "Bullet",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "sensor"
+  },
+  "credentials" : {
+    "credentialsId" : "1FR6cApa3AsNwgt2lyAt",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "02cf6000-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "12d1bee0-84dd-11f0-9dcf-813811befd2b"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 1000524359
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1762423586773,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1762423586693,
+      "longValue" : 1762423586692,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1762422971861,
+      "longValue" : 1762422971438,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "firmware",
+      "lastUpdateTs" : 1762422956062,
+      "longValue" : null,
+      "strValue" : "v1.2"
+    } ]
+  },
+  "calculatedFields" : [ ]
+}

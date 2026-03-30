@@ -1,11 +1,7 @@
 {
   "entityType" : "DEVICE",
   "entity" : {
-    "additionalInfo" : {
-      "gateway" : true,
-      "overwriteActivityTime" : false,
-      "description" : "gateway gateway gateway gateway gateway gateway gateway gateway"
-    },
+    "additionalInfo" : null,
     "customerId" : {
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
@@ -20,22 +16,25 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "2ec8fa60-0322-11f0-8f83-43727cd6bc90"
+      "id" : "aac545f0-84ce-11f0-9dcf-813811befd2b"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "aac5bb20-84ce-11f0-9dcf-813811befd2b"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "2bf0c9a0-2c37-11f1-bbfc-9dee6dc65253"
+      "id" : "aac5bb20-84ce-11f0-9dcf-813811befd2b"
     },
-    "label" : "gateway gateway gateway gateway gateway gateway gateway gateway",
-    "name" : "gateWay",
+    "label" : null,
+    "name" : "Device A",
     "ownerId" : null,
     "softwareId" : null,
-    "type" : "default"
+    "type" : "thermostat"
   },
   "credentials" : {
-    "credentialsId" : "5jxkzkRK8bEK8vl4vzHC",
+    "credentialsId" : "C6JCMEw8TeAgNFHgbtK5",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -46,8 +45,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1774875089767,
+      "lastUpdateTs" : 1756469846713,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1756469846699,
+      "longValue" : 1756469846695,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1756469223737,
+      "longValue" : 1756469222441,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

@@ -2,9 +2,9 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : true,
+      "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : "gateway gateway gateway gateway gateway gateway gateway gateway"
+      "description" : ""
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -26,16 +26,16 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "2bf0c9a0-2c37-11f1-bbfc-9dee6dc65253"
+      "id" : "b50a6780-21f8-11f1-afd7-eb430bfb427f"
     },
-    "label" : "gateway gateway gateway gateway gateway gateway gateway gateway",
-    "name" : "gateWay",
+    "label" : "",
+    "name" : "fmhgum",
     "ownerId" : null,
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "5jxkzkRK8bEK8vl4vzHC",
+    "credentialsId" : "BgkxOFrxxiUwDnwvH8Bt",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -46,8 +46,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1774875089767,
+      "lastUpdateTs" : 1773749362145,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1773749362135,
+      "longValue" : 1773749362131,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

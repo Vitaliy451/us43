@@ -1,0 +1,32 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : {
+      "entityType" : "ROLE",
+      "id" : "139de4d0-30a4-11f0-910c-7d429c684c1d"
+    },
+    "name" : "Menu role",
+    "permissions" : {
+      "ALL" : [ "ALL" ],
+      "DASHBOARD" : [ "ALL" ],
+      "WHITE_LABELING" : [ "ALL" ]
+    },
+    "type" : "GENERIC",
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "139de4d0-30a4-11f0-910c-7d429c684c1d"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

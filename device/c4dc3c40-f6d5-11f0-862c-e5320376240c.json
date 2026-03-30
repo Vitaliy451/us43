@@ -1,0 +1,92 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "12d197d0-84dd-11f0-9dcf-813811befd2b"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "c4dc3c40-f6d5-11f0-862c-e5320376240c"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "c4dc3c40-f6d5-11f0-862c-e5320376240c"
+    },
+    "label" : null,
+    "name" : "SN-001",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "sensor"
+  },
+  "credentials" : {
+    "credentialsId" : "9e3H24r8PhFKVjf1dUjL",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "02cf6000-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c4dc3c40-f6d5-11f0-862c-e5320376240c"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 1077021450
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1773745826692,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1773213739982,
+      "longValue" : 1773213739981,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1773213137660,
+      "longValue" : 1773213135307,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "test",
+      "lastUpdateTs" : 1769006207945,
+      "longValue" : null,
+      "strValue" : "v1.3"
+    } ]
+  },
+  "calculatedFields" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "data" : "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxNkwzLjU0MjIzIDEyLjMzODNDMS45MzI3OCAxMS4wMTYyIDEgOS4wNDI4NyAxIDYuOTYwMDVDMSAzLjExNjEyIDQuMTU2MDcgMCA4IDBDMTEuODQzOSAwIDE1IDMuMTE2MTIgMTUgNi45NjAwNUMxNSA5LjA0Mjg3IDE0LjA2NzIgMTEuMDE2MiAxMi40NTc4IDEyLjMzODNMOCAxNlpNMyA2SDVDNi4xMDQ1NyA2IDcgNi44OTU0MyA3IDhWOUwzIDcuNVY2Wk0xMSA2QzkuODk1NDMgNiA5IDYuODk1NDMgOSA4VjlMMTMgNy41VjZIMTFaIiBmaWxsPSIjMDAwMDAwIi8+DQo8L3N2Zz4=",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 800,
+      "height" : 800,
+      "size" : 545,
+      "etag" : "825a78ade7086bfe4326db23187a703e3b3c9e694e1e08f586c7a8e757f05f02",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 800,
+        "height" : 800,
+        "size" : 545,
+        "etag" : "825a78ade7086bfe4326db23187a703e3b3c9e694e1e08f586c7a8e757f05f02"
+      }
+    },
+    "etag" : "825a78ade7086bfe4326db23187a703e3b3c9e694e1e08f586c7a8e757f05f02",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "50745560-309f-11f0-9257-458d053e54a2"
+    },
+    "fileName" : "alien-svgrepo-com.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "50745560-309f-11f0-9257-458d053e54a2"
+    },
+    "link" : "/api/images/tenant/alien-svgrepo-com.svg",
+    "name" : "alien-svgrepo-com.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/N71lqDNZldmK4cmEnuH8Wjy6c7JGo4ZO",
+    "publicResourceKey" : "N71lqDNZldmK4cmEnuH8Wjy6c7JGo4ZO",
+    "resourceKey" : "alien-svgrepo-com.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "alien-svgrepo-com.svg"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "baseUrl" : "https://thingsboard.cloud",
+      "httpEndpoint" : "https://thingsboard.cloud/api/v1/integrations/http/69b63638-c462-86e0-5c6d-5387da78f51e",
+      "enableSecurity" : true,
+      "headersFilter" : {
+        "test-header" : "secret"
+      },
+      "replaceNoContentToOk" : true,
+      "metadata" : { }
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1762423895735,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "1f0c81b0-84d1-11f0-9dcf-813811befd2b"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "1f0cf6e0-84d1-11f0-8537-e5a03e6ead6c"
+    },
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : {
+      "entityType" : "INTEGRATION",
+      "id" : "1fdcf110-84d1-11f0-9631-172f0d7c47ff"
+    },
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "1fdcf110-84d1-11f0-9631-172f0d7c47ff"
+    },
+    "name" : "HTTP integration",
+    "remote" : false,
+    "routingKey" : "69b63638-c462-86e0-5c6d-5387da78f51e",
+    "secret" : "1jtyfu0qjqs4qnzseso1",
+    "type" : "HTTP"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "1fdcf110-84d1-11f0-9631-172f0d7c47ff"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "31faf970-84d4-11f0-9dcf-813811befd2b"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 825869486
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "1fdcf110-84d1-11f0-9631-172f0d7c47ff"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "75a399e0-84d2-11f0-9dcf-813811befd2b"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 825864412
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-0",
+      "lastUpdateTs" : 1774850691163,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-1",
+      "lastUpdateTs" : 1774850614357,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-2",
+      "lastUpdateTs" : 1774850605407,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

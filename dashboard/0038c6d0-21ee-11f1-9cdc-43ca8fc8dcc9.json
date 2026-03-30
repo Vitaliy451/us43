@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "title" : "delete",
+    "title" : "Dash",
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
@@ -10,7 +10,7 @@
       "widgets" : { },
       "states" : {
         "default" : {
-          "name" : "delete",
+          "name" : "Dash",
           "root" : true,
           "layouts" : {
             "main" : {
@@ -50,14 +50,17 @@
         "toolbarAlwaysOpen" : true
       }
     },
-    "name" : "delete",
+    "name" : "Dash",
     "resources" : null,
     "assignedCustomers" : null,
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "0038c6d0-21ee-11f1-9cdc-43ca8fc8dcc9"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
-      "id" : "b7c39e30-2c37-11f1-91db-cbfa9ac9843b"
+      "id" : "0038c6d0-21ee-11f1-9cdc-43ca8fc8dcc9"
     },
     "ownerId" : null
   },

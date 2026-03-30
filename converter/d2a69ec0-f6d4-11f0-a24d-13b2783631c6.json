@@ -1,0 +1,47 @@
+{
+  "entityType" : "CONVERTER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "scriptLang" : "TBEL",
+      "decoder" : null,
+      "tbelDecoder" : "/** Decoder **/\n\n// decode payload to JSON\nvar data = decodeToJson(payload);\n\n// Result object with device/asset attributes/telemetry data\n\nvar deviceName = data.deviceName;\nvar deviceType = data.deviceType;\nvar result = {\n    deviceName: deviceName,\n    deviceType: deviceType,\n    attributes: {},\n    telemetry: {\n        temperature: data.temperature,\n        humidity: data.humidity\n    }\n};\n\n/** Helper functions 'decodeToString' and 'decodeToJson' are already built-in **/\n\nreturn result;",
+      "encoder" : null,
+      "tbelEncoder" : null,
+      "updateOnlyKeys" : [ "manufacturer" ],
+      "type" : "DEVICE",
+      "name" : "",
+      "profile" : "",
+      "label" : "",
+      "customer" : "",
+      "group" : "",
+      "telemetry" : null,
+      "attributes" : null
+    },
+    "converterVersion" : 1,
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1769006337612,
+      "failuresEnabled" : true
+    },
+    "edgeTemplate" : false,
+    "externalId" : {
+      "entityType" : "CONVERTER",
+      "id" : "d2a69ec0-f6d4-11f0-a24d-13b2783631c6"
+    },
+    "id" : {
+      "entityType" : "CONVERTER",
+      "id" : "d2a69ec0-f6d4-11f0-a24d-13b2783631c6"
+    },
+    "integrationType" : "TCP",
+    "name" : "Uplink data converter for TCP integration",
+    "type" : "UPLINK"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

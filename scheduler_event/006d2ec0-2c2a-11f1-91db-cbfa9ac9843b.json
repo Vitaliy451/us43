@@ -1,0 +1,43 @@
+{
+  "entityType" : "SCHEDULER_EVENT",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : {
+      "reportTemplateId" : {
+        "entityType" : "REPORT_TEMPLATE",
+        "id" : "85697bc0-2c29-11f1-bbfc-9dee6dc65253"
+      },
+      "userId" : {
+        "entityType" : "USER",
+        "id" : "2efded10-0322-11f0-8f83-43727cd6bc90"
+      },
+      "timezone" : "Europe/Kiev",
+      "targets" : null,
+      "notificationTemplateId" : null
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "enabled" : false,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "SCHEDULER_EVENT",
+      "id" : "006d2ec0-2c2a-11f1-91db-cbfa9ac9843b"
+    },
+    "name" : "dbr",
+    "originatorId" : null,
+    "ownerId" : null,
+    "schedule" : {
+      "timezone" : "Europe/Kiev",
+      "startTime" : 1774869480000,
+      "repeat" : {
+        "type" : "TIMER",
+        "endsOn" : 1775250000000,
+        "repeatInterval" : 2,
+        "timeUnit" : "MINUTES"
+      }
+    },
+    "type" : "generateReport"
+  }
+}

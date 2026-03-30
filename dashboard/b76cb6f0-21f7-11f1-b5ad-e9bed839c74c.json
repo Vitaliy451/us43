@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "title" : "delete",
+    "title" : "fAWEF",
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
@@ -10,7 +10,7 @@
       "widgets" : { },
       "states" : {
         "default" : {
-          "name" : "delete",
+          "name" : "fAWEF",
           "root" : true,
           "layouts" : {
             "main" : {
@@ -50,14 +50,14 @@
         "toolbarAlwaysOpen" : true
       }
     },
-    "name" : "delete",
+    "name" : "fAWEF",
     "resources" : null,
     "assignedCustomers" : null,
     "customerId" : null,
     "externalId" : null,
     "id" : {
       "entityType" : "DASHBOARD",
-      "id" : "b7c39e30-2c37-11f1-91db-cbfa9ac9843b"
+      "id" : "b76cb6f0-21f7-11f1-b5ad-e9bed839c74c"
     },
     "ownerId" : null
   },

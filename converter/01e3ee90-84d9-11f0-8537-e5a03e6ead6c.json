@@ -1,0 +1,39 @@
+{
+  "entityType" : "CONVERTER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "scriptLang" : "TBEL",
+      "decoder" : null,
+      "tbelDecoder" : null,
+      "encoder" : null,
+      "tbelEncoder" : "/** Encoder **/\n\nvar value = parseInt(msg.params.replaceAll(\"[\\\"]\",\"\"));\nvar data = {value: value};\n// Result object with encoded downlink payload\nvar result = {\n\n    // downlink data content type: JSON, TEXT or BINARY (base64 format)\n    contentType: \"JSON\",\n\n    // downlink data\n    data: JSON.stringify(data),\n\n    // Optional metadata object presented in key/value format\n    metadata: {\n        topic: 'tb/mqtt-integration-tutorial/sensors/'+metadata['deviceName']+'/rx/twoway'\n    }\n\n};\n\nreturn result;",
+      "updateOnlyKeys" : null
+    },
+    "converterVersion" : 1,
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1756478156093,
+      "failuresEnabled" : true
+    },
+    "edgeTemplate" : false,
+    "externalId" : {
+      "entityType" : "CONVERTER",
+      "id" : "01e3ee90-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "id" : {
+      "entityType" : "CONVERTER",
+      "id" : "01e3ee90-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "integrationType" : "MQTT",
+    "name" : "Downlink data converter for MQTT integration",
+    "type" : "DOWNLINK"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "clientConfiguration" : {
+        "host" : "broker.hivemq.com",
+        "port" : 1883,
+        "cleanSession" : false,
+        "retainedMessage" : false,
+        "ssl" : false,
+        "connectTimeoutSec" : 10,
+        "clientId" : "",
+        "maxBytesInMessage" : 32368,
+        "protocolVersion" : "MQTT_3_1_1",
+        "credentials" : {
+          "type" : "anonymous"
+        }
+      },
+      "topicFilters" : [ {
+        "filter" : "tb/mqtt-integration-tutorial/sensors/+/rx/response",
+        "qos" : 0
+      } ],
+      "downlinkTopicPattern" : "${topic}",
+      "metadata" : { }
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1756476707306,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "01e4d8f0-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "01e3ee90-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : {
+      "entityType" : "INTEGRATION",
+      "id" : "02cf6000-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "02cf6000-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "name" : "MQTT integration",
+    "remote" : false,
+    "routingKey" : "86f436b7-53fd-56de-8fc5-94d441e8e494",
+    "secret" : "px8bjwzxu0g8ggr6qkk9",
+    "type" : "MQTT"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "02cf6000-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c4dc3c40-f6d5-11f0-862c-e5320376240c"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 1077021450
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "02cf6000-84d9-11f0-8537-e5a03e6ead6c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "12d1bee0-84dd-11f0-9dcf-813811befd2b"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 1000524359
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-0",
+      "lastUpdateTs" : 1774850882001,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

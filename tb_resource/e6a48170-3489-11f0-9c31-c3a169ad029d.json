@@ -1,0 +1,44 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "data" : "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczp0Yj0iaHR0cHM6Ly90aGluZ3Nib2FyZC5pby9zdmciIGhlaWdodD0iODAwcHgiIHdpZHRoPSI4MDBweCIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB2aWV3Qm94PSIwIDAgNTMuNjI2IDUzLjYyNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHRiOm1ldGFkYXRhIHhtbG5zPSIiPjwhW0NEQVRBW3sKICAidGl0bGUiOiAiZ2FtZXBhZC1jb250cm9sbGVyLnN2ZyIsCiAgIndpZGdldFNpemVYIjogMSwKICAid2lkZ2V0U2l6ZVkiOiAxLAogICJ0YWdzIjogW10sCiAgImJlaGF2aW9yIjogW10sCiAgInByb3BlcnRpZXMiOiBbXQp9XV0+PC90YjptZXRhZGF0YT4KCjxnPgoJPHBhdGggc3R5bGU9ImZpbGw6IzAxMDAwMjsiIGQ9Ik00OC44MzEsMTUuMzM0Yy03LjA4My0xMS42MzctMTcuNzUzLTMuNTQxLTE3Ljc1My0zLjU0MWMtMC42OTIsMC41MjMtMS45NjgsMC45NTMtMi44MzUsMC45NTUgICBsLTIuODU4LDAuMDAyYy0wLjg2NywwLjAwMS0yLjE0My0wLjQyOS0yLjgzNC0wLjk1MmMwLDAtMTAuNjcxLTguMDk4LTE3Ljc1NSwzLjUzOUMtMi4yODYsMjYuOTcsMC41NjgsMzkuNjM5LDAuNTY4LDM5LjYzOSAgIGMwLjUsMy4xMDIsMi4xNDgsNS4xNzIsNS4yNTgsNC45MTJjMy4xMDEtMC4yNTksOS44MzItOC4zNTQsOS44MzItOC4zNTRjMC41NTYtMC42NjcsMS43MjEtMS4yMTIsMi41ODYtMS4yMTJsMTcuMTM0LTAuMDAzICAgYzAuODY2LDAsMi4wMywwLjU0NSwyLjU4NSwxLjIxMmMwLDAsNi43MzIsOC4wOTUsOS44MzgsOC4zNTRjMy4xMDYsMC4yNiw0Ljc1OC0xLjgxMiw1LjI1NS00LjkxMiAgIEM1My4wNTUsMzkuNjM2LDU1LjkxNCwyNi45NjksNDguODMxLDE1LjMzNHogTTIwLjM3NCwyNC44MDZIMTYuN3YzLjU0MWMwLDAtMC43NzgsMC41OTQtMS45ODIsMC41NzkgICBjLTEuMjAyLTAuMDE4LTEuNzQ2LTAuNjQ4LTEuNzQ2LTAuNjQ4di0zLjQ3MWgtMy40N2MwLDAtMC40MzMtMC40NDQtMC41NDktMS42MTNjLTAuMTE0LTEuMTY5LDAuNDc5LTIuMTE0LDAuNDc5LTIuMTE0aDMuNjc1ICAgdi0zLjY3NGMwLDAsMC43NTYtMC40MDUsMS44NDMtMC4zNzRjMS4wODgsMC4wMzQsMS44ODUsMC40NDMsMS44ODUsMC40NDNsLTAuMDE1LDMuNjA0aDMuNDdjMCwwLDAuNjA2LDAuNzc4LDAuNjU2LDEuNzE4ICAgQzIwLjk5NiwyMy43MzgsMjAuMzc0LDI0LjgwNiwyMC4zNzQsMjQuODA2eiBNMzcuMjI2LDI4Ljg0MmMtMS42MDksMC0yLjkwNi0xLjMwMS0yLjkwNi0yLjkwOGMwLTEuNjEsMS4yOTctMi45MDgsMi45MDYtMi45MDggICBjMS42MDIsMCwyLjkwOSwxLjI5OCwyLjkwOSwyLjkwOEM0MC4xMzUsMjcuNTQyLDM4LjgyOCwyOC44NDIsMzcuMjI2LDI4Ljg0MnogTTM3LjIyNiwyMC44NDFjLTEuNjA5LDAtMi45MDYtMS4zLTIuOTA2LTIuOTA3ICAgYzAtMS42MSwxLjI5Ny0yLjkwOCwyLjkwNi0yLjkwOGMxLjYwMiwwLDIuOTA5LDEuMjk4LDIuOTA5LDIuOTA4QzQwLjEzNSwxOS41NDIsMzguODI4LDIwLjg0MSwzNy4yMjYsMjAuODQxeiBNNDQuNDY4LDI1LjEzNiAgIGMtMS42MDksMC0yLjkwNi0xLjMtMi45MDYtMi45MDhjMC0xLjYwOSwxLjI5Ny0yLjkwOCwyLjkwNi0yLjkwOGMxLjYwMiwwLDIuOTA5LDEuMjk5LDIuOTA5LDIuOTA4ICAgQzQ3LjM3NywyMy44MzYsNDYuMDcsMjUuMTM2LDQ0LjQ2OCwyNS4xMzZ6Ii8+CjwvZz4KCjwvc3ZnPg==",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 800,
+      "height" : 800,
+      "size" : 1750,
+      "etag" : "772fb4e3044f4ea03276992c0817782386015d3048a4dfd35bdbc632cc7a906d",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 800,
+        "height" : 800,
+        "size" : 1571,
+        "etag" : "4904a4ede7d01d8f7003a70abd7bc99cd31124d4bdedad15b49de223360a719c"
+      }
+    },
+    "etag" : "772fb4e3044f4ea03276992c0817782386015d3048a4dfd35bdbc632cc7a906d",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "e6a48170-3489-11f0-9c31-c3a169ad029d"
+    },
+    "fileName" : "gamepad-controller.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "e6a48170-3489-11f0-9c31-c3a169ad029d"
+    },
+    "link" : "/api/images/tenant/gamepad-controller.svg",
+    "name" : "gamepad-controller.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/liYvCWY7IGiypmNCR2e6eRnRKx4NDqLK",
+    "publicResourceKey" : "liYvCWY7IGiypmNCR2e6eRnRKx4NDqLK",
+    "resourceKey" : "gamepad-controller.svg",
+    "resourceSubType" : "SCADA_SYMBOL",
+    "resourceType" : "IMAGE",
+    "title" : "gamepad-controller.svg"
+  }
+}
