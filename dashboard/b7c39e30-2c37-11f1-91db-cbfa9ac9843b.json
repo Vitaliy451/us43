@@ -1,0 +1,26 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "delete",
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "name" : "delete",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "b7c39e30-2c37-11f1-91db-cbfa9ac9843b"
+    },
+    "ownerId" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
