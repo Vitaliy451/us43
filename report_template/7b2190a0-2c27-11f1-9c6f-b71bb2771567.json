@@ -194,7 +194,10 @@
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "REPORT_TEMPLATE",
+      "id" : "7b2190a0-2c27-11f1-9c6f-b71bb2771567"
+    },
     "format" : "PDF",
     "id" : {
       "entityType" : "REPORT_TEMPLATE",
